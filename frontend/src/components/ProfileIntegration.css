@@ -1,0 +1,112 @@
+.profile-integration {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.profile-preview {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.profile-preview h2 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.profile-preview p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.view-profile-button {
+  background-color: #007AFF;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-bottom: 40px;
+}
+
+.view-profile-button:hover {
+  background-color: #0056b3;
+}
+
+.features-list {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.features-list h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.features-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features-list li {
+  padding: 8px 0;
+  color: #666;
+  font-size: 14px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.features-list li:last-child {
+  border-bottom: none;
+}
+
+.back-button {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.back-button:hover {
+  background-color: #5a6268;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-preview {
+    padding: 20px 15px;
+  }
+  
+  .profile-preview h2 {
+    font-size: 24px;
+  }
+  
+  .view-profile-button {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+  
+  .features-list {
+    padding: 20px;
+    margin: 0 10px 30px 10px;
+  }
+} 

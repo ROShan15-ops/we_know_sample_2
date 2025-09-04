@@ -1,0 +1,74 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients for 3D effect -->
+    <linearGradient id="whiteGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffed4e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shadowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#333333;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+
+  
+  <!-- "we" text with 3D effect -->
+  <text x="10" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="url(#whiteGradient)">
+    we
+  </text>
+  <text x="12" y="27" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="url(#shadowGradient)">
+    we
+  </text>
+  
+  <!-- "KNOW" text with 3D effect -->
+  <text x="35" y="45" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="url(#goldGradient)">
+    K
+  </text>
+  <text x="37" y="47" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="url(#shadowGradient)">
+    K
+  </text>
+  
+  <text x="55" y="45" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="url(#whiteGradient)">
+    N
+  </text>
+  <text x="57" y="47" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="url(#shadowGradient)">
+    N
+  </text>
+  
+  <!-- "O" with cup inside -->
+  <text x="75" y="45" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="url(#whiteGradient)">
+    O
+  </text>
+  <text x="77" y="47" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="url(#shadowGradient)">
+    O
+  </text>
+  
+  <!-- Cup inside "O" -->
+  <path d="M 82 30 L 82 40 L 88 40 L 88 30 Z" fill="white" stroke="#2c3e50" stroke-width="1"/>
+  <path d="M 82 30 L 88 30 L 88 35 L 82 35 Z" fill="#27ae60"/>
+  
+  <text x="95" y="45" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="url(#goldGradient)">
+    W
+  </text>
+  <text x="97" y="47" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="url(#shadowGradient)">
+    W
+  </text>
+  
+  <!-- Magnifying glass over "K" -->
+  <circle cx="50" cy="25" r="12" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="58" y1="33" x2="65" y2="40" stroke="black" stroke-width="2"/>
+  
+  <!-- Food item inside magnifying glass -->
+  <ellipse cx="50" cy="25" rx="8" ry="4" fill="#e74c3c"/>
+  <circle cx="47" cy="23" r="1" fill="#f39c12"/>
+  <circle cx="53" cy="27" r="1" fill="#27ae60"/>
+  
+  <!-- Pointing finger -->
+  <path d="M 65 20 L 70 15 L 75 20 L 70 25 Z" fill="url(#goldGradient)"/>
+  
+</svg> 
